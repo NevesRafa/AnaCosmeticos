@@ -11,4 +11,5 @@
     <string name="itens">Itens</string>
     <string name="add_button">add_button</string>
     <string name="criar_lista_para_envio">Criar lista para envio</string>
+    <string name="selecione_data_envio">Selecione a data de envio</string>
 </resources>
