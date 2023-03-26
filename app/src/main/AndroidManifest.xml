@@ -14,10 +14,10 @@
         android:theme="@style/Theme.AnaCosmeticos"
         tools:targetApi="31">
         <activity
-            android:name=".CreateShippingActivity"
+            android:name=".presentation.create_shipping.CreateShippingActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeScreenActivity"
+            android:name=".presentation.home.HomeScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
