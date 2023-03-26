@@ -34,9 +34,7 @@ class CreateShippingViewHolder(private val binding: ItemListForShippingBinding) 
 
     fun bind(product: Product) {
 
-        binding.productDescription.text = product.description
         binding.productName.text = product.name
-        binding.productMaker.text = product.maker
         binding.productAmount.text = "${product.amount} Unid."
     }
 
