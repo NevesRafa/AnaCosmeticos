@@ -8,7 +8,7 @@ import com.google.android.material.datepicker.CalendarConstraints
 import com.google.android.material.datepicker.DateValidatorPointForward
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.rafaelneves.anacosmeticos.R
-import com.rafaelneves.anacosmeticos.data.model.Product
+import com.rafaelneves.anacosmeticos.data.model.ProductDetails
 import com.rafaelneves.anacosmeticos.databinding.ActivityRegistrationShippingBinding
 import com.rafaelneves.anacosmeticos.internal.extension.FormatterDateExt
 import org.koin.android.ext.android.inject
@@ -46,7 +46,7 @@ class CreateShippingActivity : AppCompatActivity() {
         }
     }
 
-    private fun onSuccess(result: List<Product>) {
+    private fun onSuccess(result: List<ProductDetails>) {
         adapter.update(result)
     }
 
